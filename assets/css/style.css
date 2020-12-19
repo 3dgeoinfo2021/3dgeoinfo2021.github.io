@@ -1392,6 +1392,76 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #e0072f;
 }
 
+
+/*--------------------------------------------------------------
+# News Section
+--------------------------------------------------------------*/
+#news {
+  padding: 60px 30px;
+}
+
+#news .tab-pane {
+  transition: ease-in-out .2s;
+  padding-left: 30px;
+  max-height: 500px;
+}
+
+#news .news-item {
+  font-size: 18px;
+  border-bottom: 1px solid #cad4f6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background-color ease-in-out 0.3s;
+}
+
+#news .news-item:hover {
+  background-color: #fff;
+}
+
+#news .news-item time {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+#news .news-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#news .news-item h4 span {
+  font-style: italic;
+  color: #19328e;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+#news .news-item p {
+  font-style: italic;
+  color: #152b79;
+  margin-bottom: 0;
+}
+
+#news .twitter-timeline p{
+  width: 50%;
+}
+
+#news .fa {
+  color: #FFFFFF;
+}
+#news .panel-title {
+ font-size: 18px; 
+ color: #FFFFFF;
+ /*font-family: 'Open Sans', sans-serif;*/
+}
+#news .panel-heading {
+  background-color: #1da1f2 !important;;
+  color: #1da1f2 !important;;
+}
+#news .panel {
+  margin-top: 25px;
+}
+
 /*--------------------------------------------------------------
 # Committee Section
 --------------------------------------------------------------*/
