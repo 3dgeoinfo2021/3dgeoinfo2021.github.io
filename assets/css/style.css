@@ -1342,7 +1342,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #register .card .card-title {
   margin: 10px 0;
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -1360,6 +1360,36 @@ body.mobile-nav-active #mobile-nav-toggle {
   opacity: 0.7;
 }
 
+
+
+#register .submit-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 10px;
+  color: #fff;
+  background-color: #f82249;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  border: 2px solid #f82249;
+}
+
+#register a {
+  color: #fff;
+}
+
+#register .submit-btn:hover {
+  background: #e0072f;
+  color: #f82249;
+}
+
+/*
 #register .card .btn {
   font-size: 15px;
   border-radius: 50px;
@@ -1373,7 +1403,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #register .card .btn:hover {
   background-color: #e0072f;
 }
-
 #register #buy-ticket-modal input, #buy-tickets #buy-ticket-modal select {
   border-radius: 0;
 }
@@ -1391,6 +1420,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #register #buy-ticket-modal .btn:hover {
   background-color: #e0072f;
 }
+*/
 
 
 /*--------------------------------------------------------------
